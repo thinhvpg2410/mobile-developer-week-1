@@ -17,9 +17,9 @@ const avgKoalas2 = calcAverage(23, 34, 27)
 
 function checkWinner(avgDolphins, avgKoalas) {
     return (avgDolphins >= 2 * avgKoalas ?
-        `Koalas win (${avgKoalas} vs. ${avgDolphins})` :
+        `Dolphins win (${avgKoalas} vs. ${avgDolphins})` :
         avgKoalas >= 2 * avgDolphins ?
-            `Dolphins win (${avgDolphins} vs. ${avgKoalas})` :
+            `Koalas win (${avgDolphins} vs. ${avgKoalas})` :
             `No team win!`)
 }
 console.log(checkWinner(avgDolphins1, avgKoalas1))
